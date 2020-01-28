@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background: whitesmoke;
+    font-style: bold;
+    font-size: 70px;
+    color: chartreuse;
+    
+}
+
+body{
+    background-image: url(./assets/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+header>h1{
+    color: black;
+    font-family: 'Segoe UI';
+    text-align: center;
+}
+
+.score{
+    margin: 20px auto;
+    text-align: center;
+    width: 300px; 
+    font-family: 'Segoe UI';
+    padding: 20px;
+    font-size: 48px;  
+    position: relative;
+}
+
+.label{
+    background: whitesmoke;
+    font-size: 20px;
+    padding: 5px 10px;
+    font-family: 'Segoe UI';
+
+}
+
+#player{
+    font-style: bold;
+    font-size: 28px;
+    position: absolute;
+    top: 30px;
+    left: -30px
+
+}
+
+#computer{
+    font-size: 28px;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+}
+
+.results{
+    font-size: 50px;
+    color: whitesmoke;
+    padding: 120px;
+}
+
+.results > p {
+    text-align: center;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+}
+
+.selectors{
+    margin: 30px;
+    text-align: center;
+    padding: 20px;
+}
+
+.selector{
+    display: inline-block;
+}
+
+.selector:hover{
+    cursor: pointer;
+}
+
+#notif {
+    text-align: center;
+    font-size: 30px;
+    padding: 30px;
+    color: whitesmoke;
+    font-weight: bold;
+
+}
+
+
+
+
+
